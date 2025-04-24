@@ -3,12 +3,21 @@ public class loopies {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no of time: ");
+        System.out.println("Enter the no: ");
         int i=sc.nextInt();
-        for(i=0; i<20;i++){
-            if(i%2==0){
-                System.out.println("Even no: "+i);
+        int j=0;
+        int tab=0;
+        while(j<=i){
+            
+            tab=tab+j;
+            
+            j++;
         }
+        System.out.println(tab);
+        // do{
+        //     int tab=i*j;
+        //     System.out.println(i + "*" + j + "=" +tab);
+        //     j++;
+        // }while(j<11);
     }
-}
 }
