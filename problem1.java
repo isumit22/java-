@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MinValueOfString {
+public class problem1 {
     public static int minValue(String str, int k) {
         int[] freq = new int[26];
         for (char ch : str.toCharArray()) {
