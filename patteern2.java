@@ -7,6 +7,9 @@ public class patteern2 {
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
+            for(int j=1;j<=n;j++){
+                System.out.print("* ");
+            }
             System.out.println();
             
         }
