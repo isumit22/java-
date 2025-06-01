@@ -1,0 +1,9 @@
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-24",
+      "path": "H:\\",
+      "default": true
+    }
+  ]
+}
